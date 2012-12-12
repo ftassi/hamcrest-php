@@ -630,10 +630,10 @@ function boolValue()
 /**
  * Is the value callable?
  */
-function callable()
+function isCallable()
 {
   require_once 'Hamcrest/Type/IsCallable.php';
-  return Hamcrest_Type_IsCallable::callable();
+  return Hamcrest_Type_IsCallable::isCallable();
 }
 
 /**
